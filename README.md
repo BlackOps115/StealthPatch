@@ -10,6 +10,28 @@ Step 2. Extract `stealth_patch.zip` to the root of your Steam game folder.
 
 Step 3. Run the game using `BO_Patch.bat`, this will memory patch your game to load the patches you just installed.
 
+## Fake Shortcut
+You can create a fake shortcut to make it seem like you are running the vanilla game. This is in the event that they start requiring the showing of where you start the game from.
+
+Step 1. Navigate to your Steam game folder, right click `BlackOps.exe` and click `Create shortcut`.
+
+Step 2. Right click the shortcut, go to `Properties`.
+
+Step 3. Replace `BlackOps.exe` in the `Target` box to `BO_Patch.bat`.
+
+Step 4. Change the icon to the Black Ops icon.
+  - Click on `Change Icon`
+  - If you get a popup at this point, this is fine, click `OK`
+  - Click `Browse` at the top right
+  - Navigate to `BlackOps.exe` within your steam folder, select it, then click `Open`
+  - Click `OK` to save the icon
+
+Step 5. Click `Apply` to save these changes, then click `OK`.
+
+Step 6. Rename the shortcut to `Call of Duty Black Ops`.
+
+Step 7. Drag the shortcut to your desktop, and back up your original, you may need it later.
+
 <details>
   <summary><h2>What is the Stealth Patch? (click me)</h2></summary>
   The stealth patch is a patch loader that is completely undetectable. Everything that makes game_mod different from the base game is fixed in this.
